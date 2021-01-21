@@ -1,3 +1,113 @@
+
+// font-family: 'Open Sans', sans-serif;
+body{
+    max-width: 1920px;
+    margin:0 auto;
+    padding: 0;
+}
+.picture-bg{
+    background-image: url(../../img/illustra.1093.988.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 988px;
+    width: 1093px;
+    position: absolute;
+    right:0;
+    // z-index: 1;
+}
+.phon-little{
+    background-image: url(../../img/part.173.887.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 887px;
+    width: 173px;
+    position: absolute;
+    left:0;
+    top:140px;
+
+}
+
+
+
 .section-one{
-    color: red !important;
+    max-width: 1404px;
+    margin:0 auto;
+    position:relative;
+    // z-index: 2;
+    .header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top:88px;
+        .logo{
+            p{
+                font-size: 40px;
+                font-weight: 700;
+                color:#2870db;
+                padding:0;
+                margin:0;
+                letter-spacing: 1.2px;
+                span{
+                    color:#000;
+                }
+            }
+    
+        }
+        .navigation{
+            display:flex;
+            color:#fff;
+            align-items: center;
+            margin-top: 5px;
+            a{
+                text-decoration: none;
+                color:#fff;
+                font-size: 18px;
+                font-weight: 400;
+                padding-left: 65px;
+            }
+            li{
+                list-style-type: none;
+            }
+            button{
+                margin-left: 65px;
+                color:#14215e;
+                background: #fff;
+                border:0;
+                font-size: 18px;
+                font-weight: 600;
+                padding: 11px 35px;
+                border-radius: 16px;
+            }
+        }
+    }
+    .main-part{
+        max-width: 420px;
+        margin: 135px 0 0 116px;
+        h1{
+            font-weight: 700;
+            font-size: 50px;
+            color:#1c2056;
+            margin-bottom: 50px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 18px;
+            color:#756d91;
+            line-height: 2.1;
+        }
+        button{
+            font-size: 20px;
+            font-weight: 600;
+            color:#e1eaf8;
+            background: #2870db;
+            border-radius: 50px;
+            border:0;
+            padding:33px 67px;
+            box-shadow: -3px 20px 20px rgba(164, 163, 192, 0.5);
+            margin-top:100px;
+        }
+    }
+
 }
