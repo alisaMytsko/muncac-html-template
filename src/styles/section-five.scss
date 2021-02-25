@@ -1,0 +1,124 @@
+.section-five{
+    position:relative;
+}
+
+.image-bg{
+    background-image: url(../../img/Ellipse.1920.1008.png);
+    position: absolute;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 1008px;
+    z-index: 1;
+    top:-130%;
+}
+
+.container-five{
+    max-width: 1405px;
+    margin: 110px auto 0;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    z-index: 2;
+    position: inherit;
+}
+.box-flex{
+    flex-basis: 202px;
+    
+    .title-wrap{
+        p{
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            margin: 0 0 50px 0;
+            letter-spacing: 2px;
+        }
+
+    }
+
+    .block-contack{
+        margin-bottom: 40px;
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: none;
+            color:#fff;
+            line-height: 1.0;
+        }
+    }
+    .block-about{
+        color:#fff;
+        li{
+            list-style-type: none;
+            margin-bottom: 21px;
+        }
+        a{
+            text-decoration: none;
+            color:#fff;
+            font-weight: 400;
+            font-size: 16px;
+            transition:  font-size 0.2s;
+
+        }
+        a:hover{
+            font-size: 18px;
+            text-shadow: 0.3px 0.3px 3px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+}
+.box-foricons{
+    position: relative;
+    z-index: 2;
+    max-width: 1405px;
+    margin: 30px auto 0;
+    display:flex;
+    height: 50px;
+
+    .fab{
+        font-size: 22px;
+        padding-top: 13px;
+        background: #fff;
+        margin-right: 13px;
+        color:#2376cf;
+        width: 50px;
+        height: 36px;
+        border-radius: 100%;
+        text-align: center;
+        transition: width 0.2s, height 0.2s, font-size 0.2s, box-shadow 0.2s;
+    }
+    .fab:hover{
+        width: 52px;
+        height: 38px;
+        font-size: 24px;
+        box-shadow: 0.3px 0.3px 10px rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+// @media(max-width:1231px){
+//     .image-bg{
+//         // background-image: none;
+//         position: absolute;
+//         background-image: url(../../img/Ellipse.1920.1008.png);
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         background-position: center center;
+//         width: 100%;
+//         height: 1008px;
+//         z-index: 1;
+//         top:-130%;
+//     }
+
+// }
+@media(max-width:1540px){
+    .container-five{
+        padding: 0 15px;
+    }
+}
+.box-foricons{
+    padding: 15px;
+}

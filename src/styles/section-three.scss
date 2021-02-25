@@ -1,0 +1,138 @@
+.section-three{
+    margin:0 auto;
+    width: 1172px;
+    position: relative;
+
+
+}
+.section-three:after{
+    content: "";
+    background-image: url(../../img/part.173.887.png);
+    position:absolute;
+    display:block;
+    width: 173px;
+    height: 887px;
+    left: -32%;
+    top:0%;
+}
+
+.text-trails{
+    margin:0 auto 100px;
+    max-width: 761px;
+    p{
+        font-weight: 700;
+        font-size: 36px;
+        color: #263238;
+        margin-top: 180px;
+
+    }
+}
+.container-three{
+    display:flex;
+    justify-content: space-between;
+    .forest-information{
+        position: relative;
+        height: 685px;
+        width: 352px;
+        background: #fff;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: -1px  15px 30px 10px rgba(164, 163, 192, 0.5);
+        .overflow-picture{
+            position:absolute;
+            left:-83px;
+            top: -125px;
+        }
+        .overflow-two{
+            position:absolute;
+            left:-10px;
+            top: -41px;
+        }
+        .overflow-three{
+            position:absolute;
+            left:-10px;
+            top: -48px;
+        }
+    }
+    .block-text{
+        margin-top: 225px;
+        padding-left: 30px;
+        width: 289px;
+        .title-miles{
+            font-size: 24px;
+            font-weight: 700;
+            color: #263238;
+            padding-top: 40px;
+            margin:0;
+        }
+        .subtitle-miles{
+            font-size: 18px;
+            font-weight: 400;
+            color: #546e7a;
+            margin:49px 0 0 0;
+        }
+        .read-more{
+            font-size: 18px;
+            font-weight: 600;
+            color: #2870db;
+            text-decoration: none;
+            margin:0;
+            padding:45px 0 0 0;
+            display:block;
+        }
+    }
+}
+
+
+@media(max-width:1231px){
+    .section-three{
+        margin:0 auto;
+        max-width: 990px;
+        position: relative;
+    }
+    .section-three:after{
+        content: "";
+        display:none;
+    }
+    
+    .text-trails{
+        margin:0 auto 100px;
+        max-width: 761px;
+        text-align: center;
+        p{
+            font-size: 30px;
+            margin-top: 150px;
+    
+        }
+    }
+    .container-three{
+        display:block;
+        .forest-information{
+            margin:0 auto 70px;
+            height: 625px;
+            width: 352px;
+        }
+        .block-text{
+            margin-top: 225px;
+            padding-left: 30px;
+            width: 289px;
+            .title-miles{
+                font-size: 20px;
+                padding-top: 30px;
+            }
+            .subtitle-miles{
+                font-size: 16px;
+                margin:30px 0 0 0;
+            }
+            .read-more{
+                font-size: 16px;
+                margin:0;
+                padding:30px 0 0 0;
+            }
+        }
+    }
+    
+}
+
+
+  
